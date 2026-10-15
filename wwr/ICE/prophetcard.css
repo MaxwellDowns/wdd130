@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+#background{
+    Background-color: #FFECD7;
+    align-items: center;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+#content{
+    display: grid;
+    text-align: center; 
+    width: 250px;
+    align-content: center;
+    padding: 20px;
+    background-color: #008DB1;
+    border: 3px solid #004E63; 
+    border-radius: 20px;
+    align-self: center; 
+    h1 {
+        color: #FFFFFE;
+        z-index: 10;
+    }
+    h2 {
+        color: #FFFFFE;
+        font-size: 13px;  
+        line-height: .0001;
+        padding: 0;
+    }
+    h3 {
+        color: #FFD783;
+        font-size: 15px;
+        font-family: Nanum Brush Script;
+    }
+    a {
+        color: #91E4FB;
+    }
+    .dallin {
+        margin-left:auto;
+        margin-right:auto;
+        width: 180px;
+        height: 180px;
+        padding-top: 15px;
+        z-index: 0;
+    }
+
+}
+}
