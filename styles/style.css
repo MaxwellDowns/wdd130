@@ -1,0 +1,82 @@
+/* CSS wooooohoooooooah   */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Nanum+Brush+Script&display=swap');
+/*   
+3C5A14
+598B2C
+669D31
+71B340
+11270B
+*/
+#background {
+    background-color: #71B340;
+    color: #3C5A14;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    font-family: "Bebas Neue", sans-serif;
+}
+nav {
+    grid-column: 1 / 21;
+    grid-row: 1 / 2;
+    display: flex;
+    align-items: center;
+    background-color: #11270B;
+}
+
+main {
+    grid-column: 2 / 10;
+    grid-row: 3 / 8;
+}
+
+footer {
+    grid-column: 2 / 20;
+    grid-row: 6 / 11;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    align-content: center;
+}
+
+#form {
+    background-color: #598B2C;
+    color: black;
+    grid-column: 10 / 19;
+    grid-row: 3 / 7;
+    padding: 40px;
+    align-content: center;
+    justify-content: center;
+}
+
+
+nav img {
+    height: 60px;
+    width: auto;
+}
+
+a {
+    color: #669D31;
+    background-color: #11270B;
+    font-family: "Nanum Brush Script", cursive;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0 40px;
+}
+a:hover {
+    color: #11270B;
+    background-color: #71B340;
+}
+#list {
+    grid-column: 1/10;
+}
+ul {
+    color: black;
+
+}
+
+table {
+    background-color: white;
+    color: black;
+    border-collapse: collapse;
+    grid-column: 3/4;
+    font-family: "Libre Caslon Condensed", serif;
+}
